@@ -85,4 +85,9 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== SmartClub_Finances ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/smartclub_finances', 'LA\SmartClub_FinancesController');
 	Route::get(config('laraadmin.adminRoute') . '/smartclub_finance_dt_ajax', 'LA\SmartClub_FinancesController@dtajax');
+
+
+	/* ================== SmartClub_Reminders ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/smartclub_reminders', 'LA\SmartClub_RemindersController');
+	Route::get(config('laraadmin.adminRoute') . '/smartclub_reminder_dt_ajax', 'LA\SmartClub_RemindersController@dtajax');
 });

@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Models\SmartClub_Action;
 use App\Models\SmartClub_Finance;
+use App\Models\SmartClub_Reminder;
 use Illuminate\Http\Request;
 use App\Models\SmartClub_User;
 
@@ -39,10 +40,12 @@ class DashboardController extends Controller
         $user = new SmartClub_User();
         $finances = new SmartClub_Finance();
         $actions = new SmartClub_Action();
+        $reminders = new SmartClub_Reminder();
         return view('la.dashboard', [
             'members' => $user->getUserCount(),
             'finances' => $finances->getCurrentFinances(),
             'activeActions' => $actions->getCurrentActiveActionsCount(),
+            'reminders' => $reminders->getRemindersForToday(),
         ]);
     }
 }

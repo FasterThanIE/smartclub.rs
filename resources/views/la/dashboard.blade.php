@@ -30,7 +30,7 @@
                   <p>Finansijsko stanje</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-stats-bars"></i>
+                  <i class="ion ion-cash"></i>
                 </div>
                 <a href="/admin/smartclub_finances" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
@@ -43,7 +43,7 @@
                   <p>Započetih akcija u {{ date("M") }}u</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-person-add"></i>
+                  <i class="ion ion-bookmark"></i>
                 </div>
                 <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
               </div>
@@ -65,6 +65,42 @@
           <!-- Main row -->
           <div class="row">
             <!-- Left col -->
+            <!-- Chat box -->
+            <div class="box box-success">
+              <div class="box-header">
+                <i class="fa fa-comments-o"></i>
+                <h3 class="box-title">Podsetnici</h3>
+                <div class="box-tools pull-right" data-toggle="tooltip" title="Status">
+                  <div class="btn-group" data-toggle="btn-toggle" >
+                    <button type="button" class="btn btn-default btn-sm active"><i class="fa fa-square text-green"></i></button>
+                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="box-body chat" id="chat-box">
+                <!-- chat item -->
+                @foreach ($reminders as $reminder)
+                  <div class="item" style="{{ $reminder->date != Carbon\Carbon::today()->toDateString() ? 'background-color: #c7c7c7;' : '' }}">
+                    <img src="{{asset('/la-assets/img/user4-128x128.jpg')}}" alt="user image" class="online">
+                    <p class="message">
+                      <a href="#" class="name">
+                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> {{ $reminder->date == Carbon\Carbon::today()->toDateString() ? 'Danas' : $reminder->date }}</small>
+                        System
+                      </a>
+                      Podsetnik za {{ $reminder->name }}: {{ $reminder->text }}
+                    </p>
+                  </div><!-- /.item -->
+                 @endforeach
+              </div><!-- /.chat -->
+              <div class="box-footer">
+                <div class="input-group">
+                  <input class="form-control" placeholder="Type message...">
+                  <div class="input-group-btn">
+                    <button class="btn btn-success"><i class="fa fa-plus"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /.box (chat box) -->
             <section class="col-lg-7 connectedSortable">
               <!-- Custom tabs (Charts with tabs)-->
               <div class="nav-tabs-custom">
@@ -80,78 +116,6 @@
                   <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
                 </div>
               </div><!-- /.nav-tabs-custom -->
-
-              <!-- Chat box -->
-              <div class="box box-success">
-                <div class="box-header">
-                  <i class="fa fa-comments-o"></i>
-                  <h3 class="box-title">Chat</h3>
-                  <div class="box-tools pull-right" data-toggle="tooltip" title="Status">
-                    <div class="btn-group" data-toggle="btn-toggle" >
-                      <button type="button" class="btn btn-default btn-sm active"><i class="fa fa-square text-green"></i></button>
-                      <button type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="box-body chat" id="chat-box">
-                  <!-- chat item -->
-                  <div class="item">
-                    <img src="{{asset('/la-assets/img/user4-128x128.jpg')}}" alt="user image" class="online">
-                    <p class="message">
-                      <a href="#" class="name">
-                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
-                        Mike Doe
-                      </a>
-                      I would like to meet you to discuss the latest news about
-                      the arrival of the new theme. They say it is going to be one the
-                      best themes on the market
-                    </p>
-                    <div class="attachment">
-                      <h4>Attachments:</h4>
-                      <p class="filename">
-                        Theme-thumbnail-image.jpg
-                      </p>
-                      <div class="pull-right">
-                        <button class="btn btn-primary btn-sm btn-flat">Open</button>
-                      </div>
-                    </div><!-- /.attachment -->
-                  </div><!-- /.item -->
-                  <!-- chat item -->
-                  <div class="item">
-                    <img src="{{asset('/la-assets/img/user3-128x128.jpg')}}" alt="user image" class="offline">
-                    <p class="message">
-                      <a href="#" class="name">
-                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
-                        Alexander Pierce
-                      </a>
-                      I would like to meet you to discuss the latest news about
-                      the arrival of the new theme. They say it is going to be one the
-                      best themes on the market
-                    </p>
-                  </div><!-- /.item -->
-                  <!-- chat item -->
-                  <div class="item">
-                    <img src="{{asset('/la-assets/img/user2-160x160.jpg')}}" alt="user image" class="offline">
-                    <p class="message">
-                      <a href="#" class="name">
-                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>
-                        Susan Doe
-                      </a>
-                      I would like to meet you to discuss the latest news about
-                      the arrival of the new theme. They say it is going to be one the
-                      best themes on the market
-                    </p>
-                  </div><!-- /.item -->
-                </div><!-- /.chat -->
-                <div class="box-footer">
-                  <div class="input-group">
-                    <input class="form-control" placeholder="Type message...">
-                    <div class="input-group-btn">
-                      <button class="btn btn-success"><i class="fa fa-plus"></i></button>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- /.box (chat box) -->
 
               <!-- TO DO List -->
               <div class="box box-primary">
@@ -480,9 +444,9 @@
 (function($) {
 	$('body').pgNotification({
 		style: 'circle',
-		title: 'LaraAdmin',
-		message: "Welcome to LaraAdmin...",
-		position: "top-right",
+		title: 'Test notification',
+		message: "--",
+		position: "bottom-right",
 		timeout: 0,
 		type: "success",
 		thumbnail: '<img width="40" height="40" style="display: inline-block;" src="{{ Gravatar::fallback(asset('la-assets/img/user2-160x160.jpg'))->get(Auth::user()->email, 'default') }}" data-src="assets/img/profiles/avatar.jpg" data-src-retina="assets/img/profiles/avatar2x.jpg" alt="">'
