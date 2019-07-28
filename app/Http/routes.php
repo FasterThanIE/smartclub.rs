@@ -15,7 +15,7 @@ if(version_compare(PHP_VERSION, '7.2.0', '>=')) {
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/homepage');
 });
 
 /* ================== Homepage + Admin Routes ================== */
