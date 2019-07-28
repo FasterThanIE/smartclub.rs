@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse col-lg-10 m-auto p-0" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
             <li class="nav-item dropdown text-center">
-                <a class="nav-link colorWhite" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link colorWhite" href="/glavna" role="button" aria-haspopup="true" aria-expanded="false">
                     Glavna
                 </a>
             </li>
@@ -34,7 +34,7 @@
                     <a class="dropdown-item" href="#">O nama/ vizija misija</a>
                     <a class="dropdown-item" href="#">Postanite član smart cluba</a>
                     <a class="dropdown-item" href="#">Postanite vlasnik smart club kartice</a>
-                    <a class="dropdown-item" href="#">Kontakt</a>
+                    <a class="dropdown-item" href="/kontakt">Kontakt</a>
                 </div>
             </li>
 
@@ -43,10 +43,10 @@
                     Krediti
                 </a>
                 <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Keš kredit</a>
-                    <a class="dropdown-item" href="#">Refinansirajući</a>
-                    <a class="dropdown-item" href="#">Auto kredit</a>
-                    <a class="dropdown-item" href="#">Stambeni kredit</a>
+                    <a class="dropdown-item" href="/kes-krediti">Keš kredit</a>
+                    <a class="dropdown-item" href="/refinansirajuci">Refinansirajući</a>
+                    <a class="dropdown-item" href="/auto-krediti">Auto kredit</a>
+                    <a class="dropdown-item" href="/stambeni-krediti">Stambeni kredit</a>
                 </div>
             </li>
 
@@ -145,7 +145,7 @@
             </li>
 
             <li class="nav-item dropdown text-center">
-                <a class="nav-link colorWhite" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link colorWhite" href="/kontakt" role="button" aria-haspopup="true" aria-expanded="false">
                     Kontakt
                 </a>
             </li>
