@@ -30,7 +30,8 @@ class SmartClub_Reminder extends Model
             SELECT scr.*, u.name FROM smartclub_reminders as scr
                 INNER JOIN users AS u ON u.id = scr.for
                 WHERE scr.date <= NOW()
-            ORDER BY scr.id ASC
+            ORDER BY 
+                scr.date DESC
             ");
 
         return $reminders;
