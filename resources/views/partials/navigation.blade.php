@@ -55,10 +55,10 @@
                     Osiguranje
                 </a>
                 <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Putno osiguranje</a>
-                    <a class="dropdown-item" href="#">Osiguranje od AO</a>
-                    <a class="dropdown-item" href="#">Kasko osiguranje</a>
-                    <a class="dropdown-item" href="#">Životno osiguranje</a>
+                    <a class="dropdown-item" href="/putno-osiguranje">Putno osiguranje</a>
+                    <a class="dropdown-item" href="/osiguranje-od-ao">Osiguranje od AO</a>
+                    <a class="dropdown-item" href="/kasko-osiguranje">Kasko osiguranje</a>
+                    <a class="dropdown-item" href="/zivotno-osiguranje">Životno osiguranje</a>
                 </div>
             </li>
 

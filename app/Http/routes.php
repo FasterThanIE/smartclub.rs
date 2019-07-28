@@ -18,33 +18,12 @@ Route::get('/', function () {
     return view('pages/homepage');
 });
 
-Route::get('/glavna', function () {
-    return view('pages/homepage');
-});
-
 Route::get('/kontakt', function() {
     return view('pages/contact');
 });
 
-Route::get('/permalink', function() {
-    return view('pages/permalink');
-});
-
-
-Route::get('/kes-krediti', function() {
-    return view('pages/permalink', ['page' => 'cash_credits']);
-});
-
-Route::get('/refinansirajuci', function() {
-    return view('pages/permalink', ['page' => 'refinancing']);
-});
-
-Route::get('/auto-krediti', function() {
-    return view('pages/permalink', ['page' => 'car_credits']);
-});
-
-Route::get('/stambeni-krediti', function() {
-    return view('pages/permalink', ['page' => 'house_credits']);
+Route::any('/{any}', function($any) {
+    return \App\Http\Controllers\ViewController::getViewFromPageName($any);
 });
 
 /* ================== Homepage + Admin Routes ================== */
