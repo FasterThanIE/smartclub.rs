@@ -66,6 +66,10 @@ class ViewController extends Controller
                 $name = "life_insurance";
                 break;
 
+            case "osiguranje-imovine":
+                $name = "property_insurance";
+                break;
+
             default:
                 $name = false;
         }

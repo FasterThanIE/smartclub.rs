@@ -38,5 +38,4 @@
     <p>U skladu sa važećim Zakonom o saobraćaju, svi vozači motornih vozila u obavezi su da kod sebe imaju Izveštaj o saobraćajnoj nezgodi.
         Koristi se u slučaju manjih saobraćajnih nezgoda, sa manjom materijalnom štetom, i može biti validan umesto policijskog izveštaja.</p>
 
-
 @endsection('page_data')
