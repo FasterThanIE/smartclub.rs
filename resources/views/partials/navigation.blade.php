@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse col-lg-10 m-auto p-0" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
             <li class="nav-item dropdown text-center">
-                <a class="nav-link colorWhite" href="/glavna" role="button" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link colorWhite" href="/" role="button" aria-haspopup="true" aria-expanded="false">
                     Glavna
                 </a>
             </li>

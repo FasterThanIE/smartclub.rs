@@ -23,19 +23,13 @@ class ViewController extends Controller
     public static function getViewFromPageName($pageName)
     {
         $viewController = new ViewController();
-        $pageData = $viewController->generatePageDataFromUrl($pageName);
-        return view('pages/permalink', ['data' => $pageData]);
+        $viewName = $viewController->getPageViewFromUrl($pageName);
+        return view("partials/$viewName");
     }
 
 
-    public function generatePageDataFromUrl($pageName)
-    {
-        $page = $this->getPageNameFromUrl($pageName);
-        return $page;
-    }
 
-
-    public function getPageNameFromUrl($pageName)
+    public function getPageViewFromUrl($pageName)
     {
         $name = null;
         switch($pageName)

@@ -1,31 +1,14 @@
 
 @extends('layout')
 
+@section('title')
+    <title>{{ $data->title }}</title>
+@endsection('title')
+
 @section('content')
     <section class="d-lg-flex col-lg-8 m-auto">
         <article class="col-12 col-lg-7 pt-lg-5 p-3">
-            <h1 class="pb-lg-3">Osiguranje</h1>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-            <p>Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu, ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama,
-                kada korisniku osiguranja isplaćuje sredstva, koja on koristi za  lečenje ili druge potrebe.</p>
-
+            @yield('page_data')
         </article>
         <aside class="col-12 col-lg-5 pt-lg-5">
             <div class="container">

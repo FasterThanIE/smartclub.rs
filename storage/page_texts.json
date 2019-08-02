@@ -1,0 +1,26 @@
+{
+  "cash_credits":
+  {
+    "title": "Keš krediti",
+    "text": "Test text",
+    "page_title": "Keš krediti"
+  },
+  "refinancing":
+  {
+    "title": "Refinansirajući krediti",
+    "text": "Test text",
+    "page_title": "Refinansirajući krediti"
+  },
+  "car_credits":
+  {
+    "title": "Auto krediti",
+    "text": "Test text",
+    "page_title": "Auto krediti"
+  },
+  "home_credits":
+  {
+    "title": "Stambeni krediti",
+    "text": "Test text",
+    "page_title": "Stambeni krediti"
+  }
+}
