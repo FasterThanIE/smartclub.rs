@@ -8,7 +8,7 @@
 
 @section('page_data')
 
-    <h1 class="p-2">Putno osiguranje</h1>
+    <h2 class="p-2">Putno osiguranje</h2>
 
     <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji. Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu,
         klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu</p>
