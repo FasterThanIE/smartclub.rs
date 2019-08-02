@@ -35,5 +35,4 @@
         Koristi se u slučaju manjih saobraćajnih nezgoda, sa manjom materijalnom štetom, i može biti validan umesto policijskog izveštaja.</p>
 
 
-
 @endsection('page_data')

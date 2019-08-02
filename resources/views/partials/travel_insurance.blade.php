@@ -53,5 +53,4 @@
         <li class="p-2">- Za vreme boravka nosite polisu stalno sa sobom.</li>
     </ul>
 
-
 @endsection('page_data')
