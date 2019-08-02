@@ -43,5 +43,4 @@
         <li class="p-2">- Imajte u vidu da ćete snositi posledice u slučaju nenamernog i namernog neprijavljivanja okolnosti od značaja za ocenu rizika.</li>
     </ul>
 
-
 @endsection('page_data')
