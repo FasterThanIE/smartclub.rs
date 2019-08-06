@@ -5,47 +5,47 @@
     <section class="jumbotron-fluid d-flex bg-white">
 
         <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white">
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
 
-            <a class=" col-10 col-md-6 col-lg-4 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 ">KKKKKKKKKKKKKKKKKKKK</p>
             </a>
