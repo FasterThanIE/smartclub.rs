@@ -59,7 +59,7 @@
 
     <section class="container-fluid bg-info d-flex flex-row p-3 align-items-center justifyEvenly">
         <h5 class="colorWhite m-0">Imate pitanja? Kontaktirajte nas</h5>
-        <a href="#" class="btn-primary submit m-0" role="button">Kontakt</a>
+        <a href="/kontakt" class="btn-primary submit m-0" role="button">Kontakt</a>
     </section>
 
     <section class="jumbotron-fluid grey d-flex flex-column">

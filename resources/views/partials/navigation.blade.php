@@ -34,7 +34,6 @@
                     <a class="dropdown-item" href="#">O nama/ vizija misija</a>
                     <a class="dropdown-item" href="#">Postanite član smart cluba</a>
                     <a class="dropdown-item" href="#">Postanite vlasnik smart club kartice</a>
-                    <a class="dropdown-item" href="/kontakt">Kontakt</a>
                 </div>
             </li>
 
