@@ -9,7 +9,7 @@
                 U Vaše ime kontaktiramo osiguravajuće kuće i obezbeđujemo za Vas najbolju ponudu</p>
         </div>
         <div class="col-4 col-md-6 col-lg-2 d-flex align-items-center">
-            <a href="tel:063452067" class="colorBlue"><i class="fas fa-phone"></i> 063/452067</a>
+            <a href="tel:063452067" class="colorBlue fontWeight600"><i class="fas fa-phone"></i> 063/452067</a>
 
         </div>
     </div>

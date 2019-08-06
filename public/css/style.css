@@ -35,7 +35,7 @@ colorGrey{
     background-size:100% 100%;
 }
 .height{
-    height: calc(100vh - 320px)!important;
+    height: calc(100vh - 272px)!important;
 }
 .imageLink{
     width: 350px;
@@ -66,5 +66,7 @@ colorGrey{
 .listNone{
     list-style-type: none;
 }
-
+.fontWeight600{
+    font-weight: 600;
+}
 

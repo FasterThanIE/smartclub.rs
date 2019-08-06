@@ -7,47 +7,47 @@
         <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white overflow-hidden">
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite zoom" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">O NAMA</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">O NAMA</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">KREDITI</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">KREDITI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">OSIGURANJE</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">OSIGURANJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">FONDOVI</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">FONDOVI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">CONSULTING</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">CONSULTING</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">AUTO</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">AUTO</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">EDUKACIJE</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">EDUKACIJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 pl-4">WEB</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">WEB</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2  pl-4">LOYALTI</p>
+                <p class="backgroundBlue colorWhite p-2  pl-4 fontWeight600">LOYALTI</p>
             </a>
 
         </article>

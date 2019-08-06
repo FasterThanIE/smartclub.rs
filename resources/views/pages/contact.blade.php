@@ -3,7 +3,7 @@
 
 @section('content')
     <section class="d-lg-flex col-lg-8 m-auto mb-lg-5">
-        <article class="col-12 col-lg-7 pt-lg-5 p-3 umbrella d-flex flex-row img-fluid ">
+        <article class="col-12 col-lg-7 pt-lg-5 p-3 umbrella d-flex flex-row img-fluid pt-3">
 
             <a href="tel:063452067"><i class="fas fa-phone"></i>063/452067</a>
             <a href="tel:063452067"><i class="fas fa-envelope"></i>mail.com</a>
@@ -12,7 +12,7 @@
 
         <article class="col-12 col-lg-5">
 
-            <div class="container">
+            <div class="container pt-3">
 
                 <h2 class="pb-lg-3">Kontakt forma</h2>
                 <form>
