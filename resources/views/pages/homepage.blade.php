@@ -12,37 +12,37 @@
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/loan.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">KREDITI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/deal.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">OSIGURANJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/fonds.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">FONDOVI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/consulting.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">CONSULTING</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/car.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">AUTO</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/education.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">EDUKACIJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/web.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">WEB</p>
             </a>
 
@@ -66,7 +66,7 @@
 
         <h1 class="m-auto p-3 colorBlue pt-lg-5">Osiguranje</h1>
 
-        <article class="col-12 col-md-12 col-lg-10  d-flex col-12 p-3 m-auto flex-wrap justify-content-center">
+        <article class="col-12 col-md-12 col-lg-10  d-flex p-3 m-auto flex-wrap justify-content-center">
             <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
                 <i class="fas fa-road w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
@@ -118,8 +118,46 @@
             </a>
         </article>
 
-
-
     </section>
+
+    <div class="jumbotron-fluid d-flex imageSection">
+
+        <section class="col-12 col-md-12 col-lg-10  d-flex p-3 m-auto flex-wrap justify-content-center">
+            <article class="col-12 col-lg-5 p-4">
+
+                <h2>Mi smo Vaš lični zastupnik u osiguranju</h2>
+
+                <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                    Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu
+                    Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                    Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu
+                </p>
+                <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                    Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu</p>
+
+
+            </article>
+
+            <form class="col-12 col-lg-3">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ime i prezime" name="name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control"  placeholder="Email" name="email">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control"  placeholder="Kontakt" name="phone">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control resizeNone" placeholder="Vaša poruka" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-default submit backgroundBlue colorWhite text-center">Pošalji</button>
+            </form>
+
+
+        </section>
+
+    </div>
 
 @endsection
