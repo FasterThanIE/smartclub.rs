@@ -6,47 +6,47 @@
 
 
         <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white overflow-hidden">
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite zoom" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">O NAMA</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/loan.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">KREDITI</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/deal.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">OSIGURANJE</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/fonds.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">FONDOVI</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/consulting.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">CONSULTING</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/car.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">AUTO</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/education.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">EDUKACIJE</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/web.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">WEB</p>
             </a>
 
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2  pl-4 fontWeight600">LOYALTI</p>
             </a>
@@ -59,7 +59,7 @@
 
     <section class="container-fluid bg-info d-flex flex-row p-3 align-items-center justifyEvenly">
         <h5 class="colorWhite m-0">Imate pitanja? Kontaktirajte nas</h5>
-        <a href="/kontakt" class="btn-primary submit m-0" role="button">Kontakt</a>
+        <a href="/kontakt" class="btn btn-default submit backgroundBlue colorWhite text-center m-2" role="button">Kontakt</a>
     </section>
 
     <section class="jumbotron-fluid grey d-flex flex-column">
@@ -125,14 +125,14 @@
         <section class="col-12 col-md-12 col-lg-10  d-flex p-3 m-auto flex-wrap justify-content-center">
             <article class="col-12 col-lg-5 p-4">
 
-                <h2>Mi smo Vaš lični zastupnik u osiguranju</h2>
+                <h2 class="colorWhite">Mi smo Vaš lični zastupnik u osiguranju</h2>
 
-                <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                <p class="colorWhite">Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
                     Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu
                     Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
                     Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu
                 </p>
-                <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                <p class="colorWhite">Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
                     Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu</p>
 
 
