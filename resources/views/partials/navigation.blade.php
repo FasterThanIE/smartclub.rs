@@ -58,7 +58,7 @@
                     <a class="dropdown-item" href="/putno-osiguranje">Putno osiguranje</a>
                     <a class="dropdown-item" href="/osiguranje-od-ao">Osiguranje od AO</a>
                     <a class="dropdown-item" href="/kasko-osiguranje">Kasko osiguranje</a>
-                    <a class="dropdown-item" href="/kasko-osiguranje">Osiguranje imovine</a>
+                    <a class="dropdown-item" href="/osiguranje-imovine">Osiguranje imovine</a>
                     <a class="dropdown-item" href="/zivotno-osiguranje">Životno osiguranje</a>
                 </div>
             </li>
