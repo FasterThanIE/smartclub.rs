@@ -4,50 +4,50 @@
 
     <section class="jumbotron-fluid d-flex bg-white">
 
-        <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white">
-            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
+        <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white overflow-hidden">
+            <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite zoom" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">O NAMA</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">KREDITI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">OSIGURANJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">FONDOVI</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">CONSULTING</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">AUTO</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">EDUKACIJE</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2 pl-4">WEB</p>
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
-                <p class="backgroundBlue colorWhite p-2 ">KKKKKKKKKKKKKKKKKKKK</p>
+                <p class="backgroundBlue colorWhite p-2  pl-4">LOYALTI</p>
             </a>
 
         </article>
@@ -57,45 +57,59 @@
     </section>
 
     <section class="container-fluid bg-info d-flex flex-row p-3 align-items-center justifyEvenly">
-        <p class="colorWhite m-0">Imate pitanja? Kontaktirajte nas</p>
+        <h5 class="colorWhite m-0">Imate pitanja? Kontaktirajte nas</h5>
         <a href="#" class="btn-primary submit m-0" role="button">Kontakt</a>
     </section>
 
     <section class="jumbotron-fluid grey d-flex flex-column">
 
         <article class="col-12 col-md-12 col-lg-10  d-flex col-12 p-3 m-auto flex-wrap justify-content-center">
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
                 <i class="fas fa-road w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Putno osiguranje</h4>
-                    <p class="fontGrey">Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu,</p>
+                    <p class="fontGrey">Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji.
+                        Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu, klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu.</p>
                     <p class="colorBlue">Detaljnije</p>
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
                 <i class="fas fa-car-crash w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Osiguranje od AO</h4>
-                    <p class="fontGrey">Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu,</p>
+                    <p class="fontGrey">Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje vozila i bez njega se ne može izvršiti registracija.
+                        Ovim je pokrivena odgovornost vlasnika, odnosno korisnika.</p>
                     <p class="colorBlue">Detaljnije</p>
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
                 <i class="fas fa-car w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Kasko osiguranje</h4>
-                    <p class="fontGrey">Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu,</p>
+                    <p class="fontGrey">Kasko osiguranje motornih vozila pruža osiguravajuću zaštitu od oštećenja ili potpunog uništenja sopstvenog vozila usled različitih rizika kao što su
+                        delimična ili totalna šteta, saobraćajna nezgoda, prirodna nepogoda, krađa, razbojništvo i ostali rizici definisani ugovorom.</p>
                     <p class="colorBlue">Detaljnije</p>
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
                 <i class="fas fa-heartbeat w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Životno osiguranje</h4>
-                    <p class="fontGrey">Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu,</p>
+                    <p class="fontGrey">Životno osiguranje je najbitnije osiguranje za pojedinca i porodicu. Osim što pruža štednju i pravi neophodnu finansijsku rezervu,
+                        ova vrsta osiguranja pomaže u nepredviđenim životnim situacijama.</p>
+                    <p class="colorBlue">Detaljnije</p>
+                </div>
+            </a>
+
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+                <i class="fas fa-home w-25 display-4 p-2 colorBlue hoverMove"></i>
+                <div>
+                    <h4 class="colorBlue">Osiguranje imovine</h4>
+                    <p class="fontGrey">Ulaganje u imovinu zahteva velika finansijska sredstva. Potencijalni nemili događaji, koje vrlo često ne možete kontrolisati niti predvideti,
+                        mogu značajno ugroziti imovinu i naneti velike materijalne štete, koje iziskuju nova novčana ulaganja.</p>
                     <p class="colorBlue">Detaljnije</p>
                 </div>
             </a>

@@ -12,6 +12,9 @@
     padding: 0.5em 3.5em;
     margin-bottom: 1em;
 }
+.submit:hover{
+    text-decoration: none;
+}
 .grey{
     background-color: #f2f2f2;
 }
@@ -50,6 +53,8 @@ colorGrey{
 }
 .hoverWhite:hover{
     background-color: white;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .hoverMove{
     transition: 500ms ease-in-out;
