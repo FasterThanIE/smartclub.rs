@@ -4,6 +4,7 @@
 
     <section class="jumbotron-fluid d-flex bg-white">
 
+
         <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white overflow-hidden">
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite zoom" href="#">
                 <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
@@ -62,6 +63,8 @@
     </section>
 
     <section class="jumbotron-fluid grey d-flex flex-column">
+
+        <h1 class="m-auto p-3 colorBlue pt-lg-5">Osiguranje</h1>
 
         <article class="col-12 col-md-12 col-lg-10  d-flex col-12 p-3 m-auto flex-wrap justify-content-center">
             <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
