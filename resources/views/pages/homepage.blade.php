@@ -67,7 +67,7 @@
         <h1 class="m-auto p-3 colorBlue pt-lg-5">Osiguranje</h1>
 
         <article class="col-12 col-md-12 col-lg-10  d-flex p-3 m-auto flex-wrap justify-content-center">
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="/putno-osiguranje">
                 <i class="fas fa-road w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Putno osiguranje</h4>
@@ -77,7 +77,7 @@
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="/osiguranje-od-ao">
                 <i class="fas fa-car-crash w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Osiguranje od AO</h4>
@@ -87,7 +87,7 @@
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="/kasko-osiguranje">
                 <i class="fas fa-car w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Kasko osiguranje</h4>
@@ -97,7 +97,7 @@
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="/zivotno-osiguranje">
                 <i class="fas fa-heartbeat w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Životno osiguranje</h4>
@@ -107,7 +107,7 @@
                 </div>
             </a>
 
-            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="#">
+            <a class="col-md-6 col-lg-5 list-group-item w-100 grey d-flex flex-row nounderline borderNone hoverWhite m-lg-3 p-0" href="/osiguranje-imovine">
                 <i class="fas fa-home w-25 display-4 p-2 colorBlue hoverMove"></i>
                 <div>
                     <h4 class="colorBlue">Osiguranje imovine</h4>
