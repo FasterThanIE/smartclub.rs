@@ -9,6 +9,8 @@
 
     <h2 class="p-2">Osiguranje imovine</h2>
 
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/house.jpg" title="imege" />
+
     <p>Ulaganje u imovinu zahteva velika finansijska sredstva. Potencijalni nemili događaji, koje vrlo često ne možete kontrolisati niti predvideti,
         mogu značajno ugroziti imovinu i naneti velike materijalne štete, koje iziskuju nova novčana ulaganja.
         Najbolji način da pravovremeno predupredite moguće nastale štete i obezbedite novčanu naknadu koja će vam svakako umanjiti gubitke - jeste osiguranje imovine.</p>

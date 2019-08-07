@@ -9,6 +9,8 @@
 
     <h2 class="p-2">Kasko osiguranje</h2>
 
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/carInsurance.jpg" title="imege" />
+
     <p>Bilo da vaše motorno vozilo koristite za lične potrebe ili za potrebe posla kojim se bavite, poželjno je da ga obezbedite od potencijalnih nemilih događaja koji vam se mogu desiti na putu.
         Najbolja i najpouzdanija zaštita motornih vozila je upravo kasko osiguranje.</p>
 

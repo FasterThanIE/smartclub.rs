@@ -9,6 +9,8 @@
 
     <h2 class="p-2">Životno osiguranje</h2>
 
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/life.jpg" title="imege" />
+
     <p>Budućnost je nepredvidiva, ali lakše ćete se nositi sa njenim svakodnevnim izazovima ako sebi i svojoj porodici obezbedite mir.
         Zato je osiguranje života više od dobrog izbora. To je odgovoran potez.</p>
 

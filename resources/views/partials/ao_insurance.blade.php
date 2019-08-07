@@ -9,6 +9,8 @@
 
     <h2 class="p-2">Osiguranje od AO</h2>
 
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/carInsurance.jpg" title="imege" />
+
     <p>Iako je bezbednost imperativ u saobraćaju, brojne su okolnosti koje mogu dovesti do neželjenih, a u isto vreme i neprijatnih događaja.
         Upravo zato, najvažnije je da uz osnovna vozačka dokumenta, sa sobom uvek imate polisu osiguranja od autoodgovornosti.</p>
 

@@ -10,6 +10,8 @@
 
     <h2 class="p-2">Putno osiguranje</h2>
 
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/travel.jpg" title="imege" />
+
     <p>Putno osiguranje je jedno od najrasprostranjenijih osiguranja koje se ugovara u Srbiji. Odnos pokrića i cene je u korist klijenta pa tako za manje od 100 RSD po danu,
         klijent može da dobije zaštitu u slučaju nemilih događaja u inostranstvu</p>
     <p>Putno osiguranje pokriva sledeće rizike:</p>
