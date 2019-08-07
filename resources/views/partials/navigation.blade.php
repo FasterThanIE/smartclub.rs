@@ -46,6 +46,7 @@
                     <a class="dropdown-item" href="/refinansirajuci">Refinansirajući</a>
                     <a class="dropdown-item" href="/auto-krediti">Auto kredit</a>
                     <a class="dropdown-item" href="/stambeni-krediti">Stambeni kredit</a>
+                    <a class="dropdown-item" href="/potrosacki-krediti">Potrošački kredit</a>
                 </div>
             </li>
 

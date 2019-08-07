@@ -50,6 +50,10 @@ class ViewController extends Controller
                 $name = "home_credits";
                 break;
 
+            case "potrosacki-krediti":
+                $name = "consumer_credits";
+                break;
+
             case "putno-osiguranje":
                 $name = "travel_insurance";
                 break;
