@@ -57,7 +57,7 @@
 
     </section>
 
-    <section class="container-fluid bg-info d-flex flex-row p-3 align-items-center justifyEvenly">
+    <section class="container-fluid orangeBackground d-flex flex-row p-3 align-items-center justifyEvenly">
         <h5 class="colorWhite m-0">Imate pitanja? Kontaktirajte nas</h5>
         <a href="/kontakt" class="btn btn-default submit backgroundBlue colorWhite text-center m-2" role="button">Kontakt</a>
     </section>
@@ -120,7 +120,9 @@
 
     </section>
 
-    <div class="jumbotron-fluid d-flex imageSection">
+    <div class="jumbotron-fluid d-flex imageSection position-relative">
+
+        <div class="position-absolute w-100 h-100 blueFilter"></div>
 
         <section class="col-12 col-md-12 col-lg-10  d-flex p-3 m-auto flex-wrap justify-content-center">
             <article class="col-12 col-lg-5 p-4">
@@ -152,7 +154,7 @@
                     <textarea class="form-control resizeNone" placeholder="Vaša poruka" rows="10"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-default submit backgroundBlue colorWhite text-center">Pošalji</button>
+                <button type="submit" class="btn btn-default submit orangeBackground colorWhite text-center">Pošalji</button>
             </form>
 
 

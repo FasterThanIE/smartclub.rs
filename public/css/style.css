@@ -4,6 +4,18 @@
 .colorBlue{
     color: #055089;
 }
+.orangeBackground{
+    background-color: #A35354;
+}
+.orangeColor{
+    color: #A35354;
+}
+.orangeColor:hover{
+    color: #A35354;
+}
+.size15em{
+    font-size: 1.5em;
+}
 .colorWhite{
     color: #FFFFFF !important ;
 }
@@ -76,6 +88,9 @@ colorGrey{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.blueFilter{
+    background-color: rgba(0, 101, 171, .5);
 }
 
 @media only screen and (max-width: 1024px){
