@@ -4,7 +4,6 @@
             <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
                 <img src="/images/logo.jpg" alt="logo" class="w-100">
             </a>
-
         </div>
 
         <div class="d-none d-sm-none d-lg-flex col-md-5 col-lg-5 colorGrey">
@@ -18,6 +17,12 @@
     </div>
 </header>
 <nav class="navbar navbar-expand-lg col-lg-12 backgroundBlue sticky p-xl-2">
+    <div class="col-4 col-md-4 logoMobile">
+        <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
+            <img src="/images/logo.jpg" alt="logo" class="w-100">
+        </a>
+    </div>
+
     <button class="navbar-toggler colorWhite p-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars fa-2x"></i>
     </button>

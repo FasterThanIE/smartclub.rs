@@ -45,6 +45,9 @@ colorGrey{
 .nounderline {
     text-decoration: none !important
 }
+.logoMobile{
+    display: none;
+}
 .resizeNone{
     resize: none !important;
 }
@@ -102,6 +105,9 @@ colorGrey{
 @media only screen and (max-width: 1024px){
     .imageSection{
         height: auto;
+    }
+    .logoMobile{
+        display: flex;
     }
 }
 
