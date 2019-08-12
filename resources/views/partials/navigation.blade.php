@@ -1,14 +1,17 @@
 <header class="jumbotron text-center container-fluid bg-white m-0 p-0 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
-    <div class="d-flex flex-row justify-content-center m-auto col-12">
-        <div class=" col-8 col-md-6 col-lg-2 p-4">
+    <div class="d-flex flex-row justify-content-center m-auto col-12 align-items-center">
+        <div class="col-8 col-md-6 col-lg-2">
+            <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/logo.jpg" alt="logo" class="w-100">
+            </a>
 
         </div>
 
-        <div class="d-none d-sm-none d-lg-flex col-md-5 col-lg-6 p-4 colorGrey">
+        <div class="d-none d-sm-none d-lg-flex col-md-5 col-lg-5 colorGrey">
             <p class="colorGrey">Za naše klijente besplatna asistencija kod rešavanja odštetnih zahteva
                 U Vaše ime kontaktiramo osiguravajuće kuće i obezbeđujemo za Vas najbolju ponudu</p>
         </div>
-        <div class="col-4 col-md-6 col-lg-2 d-flex align-items-center">
+        <div class="col-4 col-md-6 col-lg-2 d-flex align-items-center m-0">
             <a href="tel:063452067" class="colorBlue fontWeight600 nounderline"><i class="fas fa-phone"></i> 063/452067</a>
 
         </div>
