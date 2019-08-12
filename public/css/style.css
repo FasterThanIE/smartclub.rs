@@ -19,6 +19,12 @@
 .colorWhite{
     color: #FFFFFF !important ;
 }
+.fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
 .submit{
     border: 1px solid #ced4da;
     padding: 0.5em 3.5em;

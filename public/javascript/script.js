@@ -1,14 +1,16 @@
 $(document).ready(function(){
-    $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
-    });
+    var windowWidth = $(window).width();
 
-    $(".zoom").hover(function(){
+    if(windowWidth > 1025)
+    {
+        $(window).scroll(function(){
+            var sticky = $('.sticky'),
+                scroll = $(window).scrollTop();
 
-        $(this).addClass('transition');
-    }, function(){
+            if (scroll >= 140) sticky.addClass('fixed');
+            else sticky.removeClass('fixed');
+        });
 
-        $(this).removeClass('transition');
-    });
+    }
+
 });
