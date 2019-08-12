@@ -7,7 +7,7 @@
 
         <article class="col-12 col-md-12 col-lg-9 d-flex flex-wrap justify-content-center m-auto bg-white overflow-hidden">
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/about.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2 pl-4 fontWeight600">O NAMA</p>
             </a>
 
@@ -47,7 +47,7 @@
             </a>
 
             <a class="mt-lg-4 ml-lg-4 mr-lg-4 col-10 col-md-6 col-lg-3 list-group-item w-100 d-flex flex-column nounderline borderNone hoverWhite p-lg-0" href="#">
-                <img class="w-100 h-auto" src="/images/umbrella.jpg" alt="image" />
+                <img class="w-100 h-auto" src="/images/loyalti.jpg" alt="image" />
                 <p class="backgroundBlue colorWhite p-2  pl-4 fontWeight600">LOYALTI</p>
             </a>
 
