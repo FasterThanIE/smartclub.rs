@@ -2,7 +2,7 @@
     <div class="d-flex flex-row justify-content-center m-auto col-12 align-items-center">
         <div class="col-8 col-md-6 col-lg-2">
             <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
-                <img src="/images/logo.jpg" alt="logo" class="w-100">
+                <img src="/images/smartClub.png" alt="logo" class="w-100">
             </a>
         </div>
 
@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg col-lg-12 backgroundBlue sticky p-xl-2">
     <div class="col-4 col-md-2 logoMobile">
         <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
-            <img src="/images/logo.jpg" alt="logo" class="w-100">
+            <img src="/images/smartClub_mobile.png" alt="logo" class="w-100">
         </a>
     </div>
 

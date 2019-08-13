@@ -5,7 +5,7 @@
     color: #055089;
 }
 .orangeBackground{
-    background-color: #A35354;
+    background-color: #ffb836;
 }
 .orangeColor{
     color: #A35354;
@@ -61,6 +61,7 @@ colorGrey{
 .padding_0{
     padding: 0;
 }
+/*home page*/
 .borderNone{
     border-radius: 0!important;
     border: none;

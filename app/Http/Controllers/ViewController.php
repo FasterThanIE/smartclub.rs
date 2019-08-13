@@ -47,11 +47,11 @@ class ViewController extends Controller
                 break;
 
             case "stambeni-krediti":
-                $name = "home_credits";
+                $name = "house_credit";
                 break;
 
             case "potrosacki-krediti":
-                $name = "consumer_credits";
+                $name = "consumer_credit";
                 break;
 
             case "putno-osiguranje":
