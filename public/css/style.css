@@ -51,10 +51,6 @@ colorGrey{
 .resizeNone{
     resize: none !important;
 }
-.umbrella{
-    background-image: url("../images/umbrella.jpg");
-    background-size:100% 100%;
-}
 .height{
     height: calc(100vh - 272px)!important;
 }
@@ -101,7 +97,13 @@ colorGrey{
 .blueFilter{
     background-color: rgba(0, 101, 171, .5);
 }
-
+.absolutePosition{
+    top: 30%;
+    left:20%;
+}
+.absolutePositionSecond{
+    top: 60%;
+}
 @media only screen and (max-width: 1024px){
     .imageSection{
         height: auto;

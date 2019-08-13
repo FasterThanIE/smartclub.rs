@@ -2,11 +2,14 @@
 @extends('layout')
 
 @section('content')
-    <section class="d-lg-flex col-lg-8 m-auto mb-lg-5">
-        <article class="col-12 col-lg-7 pt-lg-5 p-3 umbrella d-flex flex-row img-fluid pt-3">
+    <section class="d-lg-flex col-lg-8 m-auto mb-lg-5 pt-4">
+        <article class="col-12 col-lg-7  d-flex img-fluid  position-relative">
 
-            <a href="tel:063452067"><i class="fas fa-phone"></i>063/452067</a>
-            <a href="tel:063452067"><i class="fas fa-envelope"></i>mail.com</a>
+            <img class="w-100" src="/images/contact.jpg" alt="image"/>
+            <div class="position-absolute w-100 h-100 blueFilter"></div>
+
+            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition"><i class="fas fa-phone"></i> 063/452067</a>
+            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition absolutePositionSecond"><i class="fas fa-envelope"></i> mail.com</a>
 
         </article>
 
