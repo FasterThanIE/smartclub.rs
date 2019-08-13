@@ -2,7 +2,7 @@
 @extends('layout')
 
 @section('content')
-    <section class="d-lg-flex col-lg-8 m-auto mb-lg-5 pt-4">
+    <section class="d-lg-flex col-lg-8 m-auto mb-lg-5 pt-4 height">
         <article class="col-12 col-lg-7  d-flex img-fluid  position-relative">
 
             <img class="w-100" src="/images/contact.jpg" alt="image"/>

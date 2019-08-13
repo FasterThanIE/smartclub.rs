@@ -1,4 +1,4 @@
-<header class="jumbotron text-center container-fluid bg-white m-0 p-0 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
+<header class="jumbotron text-center container-fluid bg-white m-0 p-2 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
     <div class="d-flex flex-row justify-content-center m-auto col-12 align-items-center">
         <div class="col-8 col-md-6 col-lg-2">
             <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">

@@ -7,7 +7,7 @@ $(document).ready(function(){
             var sticky = $('.sticky'),
                 scroll = $(window).scrollTop();
 
-            if (scroll >= 140) sticky.addClass('fixed');
+            if (scroll >= 80) sticky.addClass('fixed');
             else sticky.removeClass('fixed');
         });
 
