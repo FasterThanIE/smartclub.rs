@@ -32,7 +32,7 @@
                         <textarea class="form-control resizeNone" placeholder="Vaša poruka" rows="10"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-default submit backgroundBlue colorWhite text-center">Pošalji</button>
+                    <button type="submit" class="btn btn-default submit orangeBackground colorWhite text-center">Pošalji</button>
                 </form>
             </div>
 

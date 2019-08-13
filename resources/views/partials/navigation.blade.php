@@ -17,7 +17,7 @@
     </div>
 </header>
 <nav class="navbar navbar-expand-lg col-lg-12 backgroundBlue sticky p-xl-2">
-    <div class="col-4 col-md-4 logoMobile">
+    <div class="col-4 col-md-2 logoMobile">
         <a class="w-100 h-auto" href="/" role="button" aria-haspopup="true" aria-expanded="false">
             <img src="/images/logo.jpg" alt="logo" class="w-100">
         </a>
