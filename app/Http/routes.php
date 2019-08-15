@@ -13,6 +13,7 @@ if(version_compare(PHP_VERSION, '7.2.0', '>=')) {
 | and give it the controller to call when that URI is requested.
 |
 */
+require __DIR__.'/admin_routes.php';
 
 Route::get('/', function () {
     return view('pages/homepage');
@@ -28,4 +29,3 @@ Route::any('/{any}', function($any) {
 
 /* ================== Homepage + Admin Routes ================== */
 
-require __DIR__.'/admin_routes.php';

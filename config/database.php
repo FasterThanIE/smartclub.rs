@@ -59,9 +59,9 @@ return [
             'dump_using_single_transaction' => true, // perform dump using a single transaction
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'sexoglas_club'),
-            'username' => env('DB_USERNAME', 'sexoglas_club'),
-            'password' => env('DB_PASSWORD', 'nflaflae2131y79n79!!!@'),
+            'database' => env('DB_DATABASE', 'localhost'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
