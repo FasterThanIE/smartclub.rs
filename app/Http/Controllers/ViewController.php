@@ -23,8 +23,8 @@ class ViewController extends Controller
     public static function getViewFromPageName($pageName)
     {
         $viewController = new ViewController();
-        $viewName = $viewController->getPageViewFromUrl($pageName);
-        return view("partials/$viewName");
+        $data = $viewController->getPageViewFromUrl($pageName);
+        return view("partials/".$data['page'], ['form' => $data['form']]);
     }
 
 
@@ -36,47 +36,57 @@ class ViewController extends Controller
         {
             case "kes-krediti":
                 $name = "cash_credits";
+                $form = "credits";
                 break;
 
             case "refinansirajuci":
                 $name = "refinancing";
+                $form = "credits";
                 break;
 
             case "auto-krediti":
                 $name = "car_credits";
+                $form = "credits";
                 break;
 
             case "stambeni-krediti":
                 $name = "house_credit";
+                $form = "credits";
                 break;
 
             case "potrosacki-krediti":
                 $name = "consumer_credit";
+                $form = "credits";
                 break;
 
             case "putno-osiguranje":
                 $name = "travel_insurance";
+                $form = "insurance";
                 break;
 
             case "osiguranje-od-ao":
                 $name = "ao_insurance";
+                $form = "insurance";
                 break;
 
             case "kasko-osiguranje":
                 $name = "casco_insurance";
+                $form = "insurance";
                 break;
 
             case "zivotno-osiguranje":
                 $name = "life_insurance";
+                $form = "insurance";
                 break;
 
             case "osiguranje-imovine":
                 $name = "property_insurance";
+                $form = "insurance";
                 break;
 
             default:
                 $name = false;
         }
-        return $name;
+        return ['page' => $name, 'form' => $form];
     }
 }

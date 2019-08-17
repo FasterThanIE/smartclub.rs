@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .backgroundBlue{
     background-color: #055089;
 }
@@ -50,9 +55,6 @@ colorGrey{
 }
 .resizeNone{
     resize: none !important;
-}
-.height{
-    min-height: calc(100vh - 240px)!important;
 }
 .imageLink{
     width: 350px;
