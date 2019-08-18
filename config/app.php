@@ -170,6 +170,10 @@ return [
     |
     */
 
+    'require' =>[
+        Sichikawa\LaravelSendgridDriver\SendgridTransportServiceProvider::class
+    ],
+
     'aliases' => [
 
         'App' => Illuminate\Support\Facades\App::class,
