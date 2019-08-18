@@ -13,9 +13,7 @@
         <aside class="col-12 col-lg-5 pt-lg-5">
             <div class="container">
                 <h2 class="pb-lg-3">Popunite online upit</h2>
-                <form>
-                    @include("forms/".$form)
-                </form>
+                @include("forms/".$form, ['page' => $page])
             </div>
 
         </aside>

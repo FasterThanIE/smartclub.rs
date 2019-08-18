@@ -24,7 +24,10 @@ class ViewController extends Controller
     {
         $viewController = new ViewController();
         $data = $viewController->getPageViewFromUrl($pageName);
-        return view("partials/".$data['page'], ['form' => $data['form']]);
+        return view("partials/".$data['page'], [
+            'form' => $data['form'],
+            'page' => $pageName
+        ]);
     }
 
 

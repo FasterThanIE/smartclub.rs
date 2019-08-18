@@ -117,6 +117,8 @@ Route::get('osiguranje', function() {
     return view('pages/homepage', ['data' => $data]);
 });
 
+Route::post('/send_email',  'ContactController@mailToAdmin');
+
 Route::any('/{any}', function($any) {
     return \App\Http\Controllers\ViewController::getViewFromPageName($any);
 });

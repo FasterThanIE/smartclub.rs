@@ -4,6 +4,7 @@
     <head>
 
         <meta name="google-site-verification" content="jp1tOjgQiV2-EtGGcfvq0roIIQJylf-w57FLrB3kSDM" />
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145851598-1"></script>
         <script>

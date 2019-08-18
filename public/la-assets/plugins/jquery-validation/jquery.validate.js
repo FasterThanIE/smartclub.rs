@@ -449,6 +449,7 @@ $.extend( $.validator, {
 
 		// http://jqueryvalidation.org/Validator.element/
 		element: function( element ) {
+			console.log("TEST");
 			var cleanElement = this.clean( element ),
 				checkElement = this.validationTargetFor( cleanElement ),
 				v = this,

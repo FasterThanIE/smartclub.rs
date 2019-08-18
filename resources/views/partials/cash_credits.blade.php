@@ -1,5 +1,5 @@
 
-@extends('pages/permalink')
+@extends('pages/permalink', ['page' => $page])
 
 
 @section('title')
