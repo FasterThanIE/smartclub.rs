@@ -10,6 +10,7 @@ use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Validator;
+use \Illuminate\Support\Facades\View as View;
 
 class ContactController extends Controller
 {
@@ -27,11 +28,13 @@ class ContactController extends Controller
 
         $data = $request->all();
 
+        $data['subject'] = "[".$data['page_name']."] Kontakt sa sajta";
 
-        Mail::send(['text'=>'emails.contact'], $data, function($message) {
-            $message->to('tomislavnikolic1993@gmail.com', 'Tutorials Point')
-                ->subject('Laravel Basic Testing Mail');
-            $message->from('xyz@gmail.com','Virat Gandhi');
+        Mail::send('emails.contact', ['data' => $data], function($message) use (&$data) {
+            $message->to('tomislavnikolic1993@gmail.com', $data['name'])
+                ->subject($data['subject']);
+
+            $message->from($data['email'],$data['name']);
         });
 
 
