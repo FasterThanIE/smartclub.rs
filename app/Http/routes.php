@@ -17,44 +17,34 @@ require __DIR__.'/admin_routes.php';
 
 Route::get('/', function () {
 
+    //1. Putno osiguranje 2. Osiguranje imovine 3 Životno osiguranje
+    //1. Keš kredit 2 Auto kredit 3. Stambeni kredit
+
     $data = [
-        'O nama' => [
-            'url' => 'o-nama',
-            'image' => 'about.jpg'
+        'Putno osiguranje' => [
+            'url' => 'putno-osiguranje',
+            'image' => 'travel.jpg'
         ],
-        'krediti' => [
-            'url' => 'krediti',
-            'image' => 'loan.jpg'
+        'Osiguranje imovine' => [
+            'url' => 'osiguranje-imovine',
+            'image' => 'house.jpg'
         ],
-        'osiguranje' => [
-            'url' => 'osiguranje',
-            'image' => 'deal.jpg'
+        'Životno osiguranje' => [
+            'url' => 'zivotno-osiguranje',
+            'image' => 'life.jpg'
         ],
-        'fondovi' => [
-            'url' => 'fondovi',
-            'image' => 'fonds.jpg'
+        'Keš krediti' => [
+            'url' => 'kes-krediti',
+            'image' => 'cash.jpg'
         ],
-        'consulting' => [
-            'url' => 'consulting',
-            'image' => 'consulting.jpg'
-        ],
-        'auto' => [
-            'url' => 'auto',
+        'Auto krediti' => [
+            'url' => 'auto-krediti',
             'image' => 'car.jpg'
         ],
-        'education' => [
-            'url' => 'edukacije',
-            'image' => 'education.jpg'
+        'Stambeni kredit' => [
+            'url' => 'auto',
+            'image' => 'houseCredit.jpg'
         ],
-        'web' => [
-            'url' => 'web',
-            'image' => 'web.jpg'
-        ],
-        'loyalti' => [
-            'url' => 'loyalti',
-            'image' => 'loyalti.jpg'
-        ],
-
     ];
 
 

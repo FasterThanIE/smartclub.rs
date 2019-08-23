@@ -34,16 +34,16 @@
                     Glavna
                 </a>
             </li>
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    O nama
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">O nama/ vizija misija</a>
-                    <a class="dropdown-item" href="#">Postanite član smart cluba</a>
-                    <a class="dropdown-item" href="#">Postanite vlasnik smart club kartice</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    O nama--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">O nama/ vizija misija</a>--}}
+{{--                    <a class="dropdown-item" href="#">Postanite član smart cluba</a>--}}
+{{--                    <a class="dropdown-item" href="#">Postanite vlasnik smart club kartice</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
             <li class="nav-item dropdown text-center">
                 <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,87 +71,87 @@
                 </div>
             </li>
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Fondovi
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Ipard</a>
-                    <a class="dropdown-item" href="#">Republički</a>
-                    <a class="dropdown-item" href="#">Pokrajinski</a>
-                    <a class="dropdown-item" href="#">Otvoreni konkursi</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Fondovi--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">Ipard</a>--}}
+{{--                    <a class="dropdown-item" href="#">Republički</a>--}}
+{{--                    <a class="dropdown-item" href="#">Pokrajinski</a>--}}
+{{--                    <a class="dropdown-item" href="#">Otvoreni konkursi</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Consulting
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Pripremanje konkursne i tenderske dokumentacije</a>
-                    <a class="dropdown-item" href="#">Izrada poslovnih i biznis planova</a>
-                    <a class="dropdown-item" href="#">Ishodovanje kredita kod poslovnih banaka</a>
-                    <a class="dropdown-item" href="#">Implementacija procedura i standarda</a>
-                    <a class="dropdown-item" href="#">Podrška poslovanju - finansijski konsalting</a>
-                    <a class="dropdown-item" href="#">Usluge vođenja poslovnih knjiga</a>
-                    <a class="dropdown-item" href="#">Pravne usluge</a>
-                    <a class="dropdown-item" href="#">Poresko savetovanje</a>
-                    <a class="dropdown-item" href="#">Revizorske usluge</a>
-                    <a class="dropdown-item" href="#">Investicioni fondovi</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Consulting--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">Pripremanje konkursne i tenderske dokumentacije</a>--}}
+{{--                    <a class="dropdown-item" href="#">Izrada poslovnih i biznis planova</a>--}}
+{{--                    <a class="dropdown-item" href="#">Ishodovanje kredita kod poslovnih banaka</a>--}}
+{{--                    <a class="dropdown-item" href="#">Implementacija procedura i standarda</a>--}}
+{{--                    <a class="dropdown-item" href="#">Podrška poslovanju - finansijski konsalting</a>--}}
+{{--                    <a class="dropdown-item" href="#">Usluge vođenja poslovnih knjiga</a>--}}
+{{--                    <a class="dropdown-item" href="#">Pravne usluge</a>--}}
+{{--                    <a class="dropdown-item" href="#">Poresko savetovanje</a>--}}
+{{--                    <a class="dropdown-item" href="#">Revizorske usluge</a>--}}
+{{--                    <a class="dropdown-item" href="#">Investicioni fondovi</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Auto
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Leasing</a>
-                    <a class="dropdown-item" href="#">Dugoročni najam vozila</a>
-                    <a class="dropdown-item" href="#">Registracija vozila</a>
-                    <a class="dropdown-item" href="#">Pomoć na putu</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Auto--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">Leasing</a>--}}
+{{--                    <a class="dropdown-item" href="#">Dugoročni najam vozila</a>--}}
+{{--                    <a class="dropdown-item" href="#">Registracija vozila</a>--}}
+{{--                    <a class="dropdown-item" href="#">Pomoć na putu</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Edukacije
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">NLP</a>
-                    <a class="dropdown-item" href="#">Finansije za nefinansijere</a>
-                    <a class="dropdown-item" href="#">Obuka za programere</a>
-                    <a class="dropdown-item" href="#">Obuka za rad u inostranstvu</a>
-                    <a class="dropdown-item" href="#">Škole stranih jezika</a>
-                    <a class="dropdown-item" href="#">Obuka za rad u korporativnom okruženju</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Edukacije--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">NLP</a>--}}
+{{--                    <a class="dropdown-item" href="#">Finansije za nefinansijere</a>--}}
+{{--                    <a class="dropdown-item" href="#">Obuka za programere</a>--}}
+{{--                    <a class="dropdown-item" href="#">Obuka za rad u inostranstvu</a>--}}
+{{--                    <a class="dropdown-item" href="#">Škole stranih jezika</a>--}}
+{{--                    <a class="dropdown-item" href="#">Obuka za rad u korporativnom okruženju</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Web
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item " href="#">Izrada web sajtova - smart web maker</a>
-                    <a class="dropdown-item" href="#">Smart shop -web shop platforma</a>
-                    <a class="dropdown-item" href="#">Izrada vizuelnog identiteta firme - logo, vizitke</a>
-                    <a class="dropdown-item" href="#">Dizajn i brendiranje</a>
-                    <a class="dropdown-item" href="#">Fotografisanje</a>
-                    <a class="dropdown-item" href="#">Snimanje dronom</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Web--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item " href="#">Izrada web sajtova - smart web maker</a>--}}
+{{--                    <a class="dropdown-item" href="#">Smart shop -web shop platforma</a>--}}
+{{--                    <a class="dropdown-item" href="#">Izrada vizuelnog identiteta firme - logo, vizitke</a>--}}
+{{--                    <a class="dropdown-item" href="#">Dizajn i brendiranje</a>--}}
+{{--                    <a class="dropdown-item" href="#">Fotografisanje</a>--}}
+{{--                    <a class="dropdown-item" href="#">Snimanje dronom</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
-            <li class="nav-item dropdown text-center">
-                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Loyalti
-                </a>
-                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Cash back</a>
-                    <a class="dropdown-item" href="#">LR</a>
-                    <a class="dropdown-item" href="#">PZP</a>
-                    <a class="dropdown-item" href="#">Herba life</a>
-                </div>
-            </li>
+{{--            <li class="nav-item dropdown text-center">--}}
+{{--                <a class="nav-link dropdown-toggle colorWhite" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                    Loyalti--}}
+{{--                </a>--}}
+{{--                <div class="dropdown-menu grey text-center" aria-labelledby="navbarDropdown">--}}
+{{--                    <a class="dropdown-item" href="#">Cash back</a>--}}
+{{--                    <a class="dropdown-item" href="#">LR</a>--}}
+{{--                    <a class="dropdown-item" href="#">PZP</a>--}}
+{{--                    <a class="dropdown-item" href="#">Herba life</a>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
             <li class="nav-item dropdown text-center">
                 <a class="nav-link colorWhite" href="/kontakt" role="button" aria-haspopup="true" aria-expanded="false">
