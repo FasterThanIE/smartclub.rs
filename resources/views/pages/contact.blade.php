@@ -8,8 +8,8 @@
             <img class="w-100" src="/images/contact.jpg" alt="image"/>
             <div class="position-absolute w-100 h-100 blueFilter"></div>
 
-            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition"><i class="fas fa-phone"></i> 063/452067</a>
-            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition absolutePositionSecond"><i class="fas fa-envelope"></i> mail.com</a>
+            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition"><i class="fas fa-phone"></i> 069 540 40 64</a>
+            <a href="tel:063452067" class="position-absolute colorWhite size15em nounderline absolutePosition absolutePositionSecond"><i class="fas fa-envelope"></i> office@smartclub.rs</a>
 
         </article>
 
