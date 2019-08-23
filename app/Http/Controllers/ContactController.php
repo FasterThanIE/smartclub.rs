@@ -27,49 +27,13 @@ class ContactController extends Controller
 
         $data = $request->all();
 
-        \Mail::send(function ($message) {
 
-            $message->from('yourEmail@domain.com', 'Learning Laravel');
-
-            $message->to('yourEmail@domain.com')->subject('Learning Laravel test email');
-
+        Mail::send(['text'=>'emails.contact'], $data, function($message) {
+            $message->to('tomislavnikolic1993@gmail.com', 'Tutorials Point')
+                ->subject('Laravel Basic Testing Mail');
+            $message->from('xyz@gmail.com','Virat Gandhi');
         });
 
-//        $endpoint = "https://api.sendgrid.com/v3/mail/send";
-//        $client = new \GuzzleHttp\Client();
-//
-//        $headers = [
-//            'Authorization' => 'Bearer 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',
-//            'Accept'        => 'application/json',
-//            'content-type' => 'application/json'
-//        ];
-//
-//        $zData = [
-//            "personalizations"=>  [
-//            [
-//                "to"=>  [
-//                [
-//                    "email"=>  "tomislavnikolic1993@gmail.com"
-//                ]
-//              ],
-//            ]
-//          ],
-//          "from"=>  [
-//                "email"=>  "tomislav.nikolic@mojagaraza.rs"
-//          ],
-//            "subject"=>  "Hello, World!",
-//          "content"=>  [
-//            [
-//                "type"=>  "text/plain",
-//                "value"=>  "Hello, World!"
-//            ]
-//          ]
-//        ];
-//
-//        $response = $client->request('POST', $endpoint, [
-//            'headers' => $headers,
-//            $zData
-//        ]);
 
 
     }
