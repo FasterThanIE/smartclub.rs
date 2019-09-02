@@ -38,7 +38,7 @@
 
         <footer class="w-100 p-2 backgroundBlue text-center">
 
-            <p class="colorWhite">2019 © Sva prava zadržana</p>
+            <p class="colorWhite">2019 © Copyright SmartClub Sva prava zadržana</p>
 
         </footer>
 
