@@ -9,7 +9,7 @@
 
     <h1>Kredit za refinansiranje</h1>
 
-    <img class="col-12 col-lg-11 h-auto p-2" src="/images/cash.jpg" title="imege" />
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/refinancing.jpg" title="imege" />
 
     <p>Šta je kredit za refinansiranje?</p>
 
@@ -48,9 +48,9 @@
         </li>
         <li class="p-2">- Uporedite visinu mesečne obaveze koju imate po osnovu kredita u otplati i onu koju ćete imati po kreditu za refinansiranje (manji anuitet ne znači uvek i da je kredit jeftiniji);</li>
         <li class="p-2">- Sagledajte troškove koji nastaju prilikom refinansiranja kredita:</li>
-        <li class="p-4">- troškove prevremenog vraćanja starog kredita na preostali iznos glavnice, i
+        <li class="p-2 pl-5">- troškove prevremenog vraćanja starog kredita na preostali iznos glavnice, i
         </li>
-        <li class="p-4">- troškove obrade novog kredita (često se pominju i kao manipulativni troškovi).</li>
+        <li class="p-2 pl-5">- troškove obrade novog kredita (često se pominju i kao manipulativni troškovi).</li>
     </ul>
 
     <p>Troškovi novog kredita koji služi za refinansiranje mogu da se pogledaju u obrascu koji se zove Pregled bitnih elemenata otplate kredita, koji su banke obavezne da vam daju na uvid pre realizacije kredita.</p>

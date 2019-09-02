@@ -9,7 +9,7 @@
 
     <h1>Auto kredit</h1>
 
-    <img class="col-12 col-lg-11 h-auto p-2" src="/images/cash.jpg" title="imege" />
+    <img class="col-12 col-lg-11 h-auto p-2" src="/images/car.jpg" title="imege" />
 
     <p>Šta je kredit za refinansiranje?</p>
 
@@ -27,7 +27,7 @@
     <h3>Poređenje kredita</h3>
 
     <p>Pre donošenja konačne odluke stavite na papir sve uslove kredita, tj. pokušajte što približnije da odredite koliko će vas automobil
-        <span class="text-bold">na kraju ukupno koštati</span>.
+        <span class="font-weight-bold">na kraju ukupno koštati</span>.
         To je najlakše uraditi poređenjem EKS (efektivne kamatne stope).
     </p>
 
@@ -38,7 +38,7 @@
     </p>
 
     <p>
-        <span class="text-bold">Efektivna kamatna stopa ili EKS</span> predstavlja stvarnu cenu kredita,
+        <span class="font-weight-bold">Efektivna kamatna stopa ili EKS</span> predstavlja stvarnu cenu kredita,
         pošto pored nominalne kamatne stope uključuje i razne troškove koji padaju na teret klijenta:
     </p>
 
@@ -56,10 +56,9 @@
         Ipak, mogu da se jave i drugi troškovi koji neće biti uključeni u EKS, kao što su procena vrednosti vozila, izdavanje raznih uverenja i potvrda, itd.
     </p>
 
-    <p>Banke moraju da vam daju <span class="text-bold">EKS</span> kada se raspitujete o svim uslovima kredita.
+    <p>Banke moraju da vam daju <span class="font-weight-bold">EKS</span> kada se raspitujete o svim uslovima kredita.
 
     </p>
-
 
 
 @endsection('page_data')
