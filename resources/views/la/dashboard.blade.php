@@ -52,8 +52,8 @@
               <!-- small box -->
               <div class="small-box bg-red">
                 <div class="inner">
-                  <h3>65</h3>
-                  <p>Unique Visitors</p>
+                  <h3>{{$sumActions}}</h3>
+                  <p>Započetih akcija</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-pie-graph"></i>

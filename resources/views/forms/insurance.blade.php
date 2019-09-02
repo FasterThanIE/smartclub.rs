@@ -1,9 +1,21 @@
-<div class="form-group">
-    <input type="text" class="form-control" placeholder="Ime i prezime" name="name">
-</div>
-<div class="form-group">
-    <input type="number" class="form-control"  placeholder="Godina rodjenja" name="years">
-</div>
+{{ Form::open(['action' => 'ContactController@mailToAdmin', 'method' => 'POST', 'class' => 'contact_form']) }}
+
+    <div class="form-group">
+        {{ Form::text('name','',['class' => 'form-control', 'placeholder' => "Unesite vaše ime i prezime"]) }}
+    </div>
+
+    <div class="form-group">
+        {{ Form::number('date_of_birth','',['class' => 'form-control', 'placeholder' => "Godina rodjenja"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Zdravsteno stanje:</p>
+        {{ Form::radio('health', 'Zdrav' , true) }}
+        {{ Form::radio('health', 'Imam zdravstvenih problema' , false) }}
+    </div>
+
+
+{{ Form::close() }}
 <label class="control-label">Zdravsteno stanje:</label>
 <div class="checkbox">
     <label><input type="checkbox"> Potpuno zdrav</label>

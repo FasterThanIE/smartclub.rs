@@ -46,6 +46,7 @@ class DashboardController extends Controller
             'finances' => $finances->getCurrentFinances(),
             'activeActions' => $actions->getCurrentActiveActionsCount(),
             'reminders' => $reminders->getRemindersForToday(),
+            'sumActions' => $actions->getSumActions()
         ]);
     }
 }

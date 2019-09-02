@@ -31,4 +31,10 @@ class SmartClub_Action extends Model
             ->get();
         return count($action);
     }
+    public function getSumActions()
+    {
+        $result = DB::select('SELECT * FROM smartclub_actions');
+        return count($result);
+
+    }
 }
