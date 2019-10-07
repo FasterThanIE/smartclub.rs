@@ -8,7 +8,7 @@
 
 @section("headerElems")
 @la_access("SmartClub_Users", "create")
-	<button class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#AddModal">Add SmartClub User</button>
+	<button class="btn btn-success btn-sm pull-right" data-toggle="modal" data-target="#AddModal">Dodaj novog člana</button>
 @endla_access
 @endsection
 
@@ -51,7 +51,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Add SmartClub User</h4>
+				<h4 class="modal-title" id="myModalLabel">Dodaj novog člana</h4>
 			</div>
 			{!! Form::open(['action' => 'LA\SmartClub_UsersController@store', 'id' => 'smartclub_user-add-form']) !!}
 			<div class="modal-body">

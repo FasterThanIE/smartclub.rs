@@ -10,40 +10,40 @@
 
     <div class="form-group">
         <p>Zdravsteno stanje:</p>
-        {{ Form::radio('health', 'Zdrav' , true) }}
-        {{ Form::radio('health', 'Imam zdravstvenih problema' , false) }}
+        {{ Form::select('health',['zdrav' => "Zdrav", "nezdrav" => "Imam zdravstvenih problema"],['class' => 'form-control', 'placeholder' => "Zdravstveno stanje"]) }}
     </div>
 
+    <div class="form-group">
+        <p>Zanimanje:</p>
+        {{ Form::text('job','',['class' => 'form-control', 'placeholder' => "Unesite vaše zanimanje"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Adresa:</p>
+        {{ Form::text('location','',['class' => 'form-control', 'placeholder' => "Mesto stanovanja"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Pol:</p>
+        {{ Form::select('gender',['muško' => "Muški", "ženko" => "Ženski"],['class' => 'form-control', 'placeholder' => "Pol"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Trajanje osiguranja u godinama:</p>
+        {{ Form::text('insurance_length','',['class' => 'form-control', 'placeholder' => "Trajanje osiguranja"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Kontakt mejl:</p>
+        {{ Form::text('email','',['class' => 'form-control', 'placeholder' => "Kontakt mejl adresa"]) }}
+    </div>
+
+    <div class="form-group">
+        <p>Kontakt telefon:</p>
+        {{ Form::number('phone_number','',['class' => 'form-control', 'placeholder' => "Kontakt telefon"]) }}
+    </div>
+
+    {{ Form::submit('Pošalji', ['class' => 'btn btn-default submit backgroundBlue colorWhite text-center']) }}
+    {{ Form::hidden('page_name', $page) }}
 
 {{ Form::close() }}
-<label class="control-label">Zdravsteno stanje:</label>
-<div class="checkbox">
-    <label><input type="checkbox"> Potpuno zdrav</label>
-</div>
-<div class="checkbox">
-    <label><input type="checkbox"> Imam zdravstvenih problema</label>
-</div>
-<div class="form-group">
-    <input type="text" class="form-control"  placeholder="Zanimanje" name="job">
-</div>
-<div class="form-group">
-    <input type="text" class="form-control"  placeholder="Mesto stanovanja" name="city">
-</div>
-<label class="control-label">Pol:</label>
-<div class="checkbox">
-    <label><input type="checkbox"> Ženski</label>
-</div>
-<div class="checkbox">
-    <label><input type="checkbox"> Muški</label>
-</div>
-<div class="form-group">
-    <input type="text" class="form-control"  placeholder="Trajanje osiguranja u godinama" name="time">
-</div>
-<div class="form-group">
-    <input type="email" class="form-control"  placeholder="Email" name="email">
-</div>
-<div class="form-group">
-    <input type="number" class="form-control"  placeholder="Kontakt" name="phone">
-</div>
-
-<button type="submit" class="btn btn-default submit backgroundBlue colorWhite text-center">Pošalji</button>

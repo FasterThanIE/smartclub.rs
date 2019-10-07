@@ -34,6 +34,10 @@
 
         @include("partials/navigation")
 
+        @if (Auth::check())
+            @include("partials/admin_navigation")
+        @endif
+
         @yield('content')
 
         <footer class="w-100 p-2 backgroundBlue text-center">

@@ -97,6 +97,10 @@ colorGrey{
     background-size: cover;
     background-attachment: fixed;
 }
+.imageHomepage{
+    height: 220px;
+    border: 1px solid #055089;
+}
 /*contact page*/
 .blueFilter{
     background-color: rgba(0, 101, 171, .5);
@@ -109,12 +113,21 @@ colorGrey{
     top: 45%;
 }
 @media only screen and (max-width: 1024px){
-    .imageSection{
+    .imageSection, .imageHomepage{
         height: auto;
     }
     .logoMobile{
         display: flex;
     }
+}
+
+.thankyou {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0px;
 }
 
 
