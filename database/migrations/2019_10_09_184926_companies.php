@@ -41,3 +41,53 @@ class Companies extends Migration
         //
     }
 }
+
+
+/**
+ *
+ *
+var elements = [];
+$("#data tr .item").each(function() {
+
+var id = $(this).parent().attr('id');
+
+var tempData = {
+'ime': $(this).find('a').text(),
+'detailed_informations': "http://www.scoring.rs"+$(this).find('a').attr('href'),
+'Opstina': 'Novi Sad'
+};
+
+
+$(this).find(".detailsitem div").each(function() {
+var tmpElement = $(this).find(".infolabel").text();
+
+if(tmpElement != "")
+{
+tempData[tmpElement] = $(this).find('.info').text()
+}
+
+});
+
+$("#"+id).next().each(function() {
+var counter = 0;
+$(this).find("td").each(function() {
+switch(counter)
+{
+case 0: tempData['MB'] = $(this).text(); break;
+case 1: tempData["PIB"] = $(this).text(); break;
+case 2: tempData["Aktiva"] = $(this).text(); break;
+case 3: tempData["Prihodi"] = $(this).text(); break;
+case 4: tempData["Neto D/G"] = $(this).text(); break;
+case 5: tempData["Zaposleni"] = $(this).text(); break;
+case 6: tempData["Scoring"] = $(this).text(); break;
+}
+counter++;
+});
+});
+elements.push(tempData);
+
+});
+
+console.log(elements);
+ *
+ */
