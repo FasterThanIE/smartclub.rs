@@ -38,6 +38,16 @@ class CompaniesController extends Controller
      */
     public function getSpecificCompany(Request $request, $pib)
     {
-        return view('la/companies/company_page');
+
+        $sql = DB::connection()->getPdo();
+
+        $stmt = $sql->prepare("
+            SELECT * FROM companies 
+            WHERE pib = :pib
+        ");
+        $stmt->bindParam(":pib", $pib, \PDO::PARAM_INT);
+        $stmt->execute();
+
+        return view('la/companies/company_page', ['data' => $stmt->fetch(\PDO::FETCH_ASSOC)]);
     }
 }
