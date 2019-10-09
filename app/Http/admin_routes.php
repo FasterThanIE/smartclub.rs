@@ -91,5 +91,6 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 
     /* ================== Smartclub Companies ================== */
     Route::get(config('laraadmin.adminRoute') . '/companies', 'LA\CompaniesController@index');
+    Route::get(config('laraadmin.adminRoute') . '/company/{companyId}', 'LA\CompaniesController@getSpecificCompany');
 
 });

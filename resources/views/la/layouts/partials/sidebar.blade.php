@@ -56,6 +56,7 @@
                 @endif
             @endforeach
             <!-- LAMenus -->
+            <li><a href="{{ url(config('laraadmin.adminRoute')) }}/companies"><i class='fa fa-building'></i> <span>Kompanije</span></a></li>
             
         </ul><!-- /.sidebar-menu -->
     </section>
