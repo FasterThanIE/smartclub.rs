@@ -72,8 +72,6 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	Route::get(config('laraadmin.adminRoute') . '/downloadBackup/{id}', 'LA\BackupsController@downloadBackup');
 
 
-
-
 	/* ================== SmartClub_Users ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/smartclub_users', 'LA\SmartClub_UsersController');
 	Route::get(config('laraadmin.adminRoute') . '/smartclub_user_dt_ajax', 'LA\SmartClub_UsersController@dtajax');
@@ -90,4 +88,8 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== SmartClub_Reminders ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/smartclub_reminders', 'LA\SmartClub_RemindersController');
 	Route::get(config('laraadmin.adminRoute') . '/smartclub_reminder_dt_ajax', 'LA\SmartClub_RemindersController@dtajax');
+
+    /* ================== Smartclub Companies ================== */
+    Route::get(config('laraadmin.adminRoute') . '/companies', 'LA\CompaniesController@index');
+
 });
