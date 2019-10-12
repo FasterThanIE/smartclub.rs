@@ -3,6 +3,8 @@
 
 @section("main-content")
 
+    @include("la/companies/company_search")
+
     @section("contentheader_title")
         <a href="{{ url(config('laraadmin.adminRoute') . '/companies') }}">Kompanije :</a>
     @endsection
