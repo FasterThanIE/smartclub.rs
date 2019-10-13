@@ -93,5 +93,7 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
     Route::get(config('laraadmin.adminRoute') . '/companies', 'LA\CompaniesController@index');
     Route::get(config('laraadmin.adminRoute') . '/companies/search', 'LA\CompaniesController@search');
     Route::get(config('laraadmin.adminRoute') . '/company/{companyId}', 'LA\CompaniesController@getSpecificCompany');
+    Route::get(config('laraadmin.adminRoute') . '/company/block/{id}', 'LA\CompaniesController@blockedCompany');
+    Route::post(config('laraadmin.adminRoute') . '/company/addNewNote', 'LA\CompaniesController@addNewNote');
 
 });

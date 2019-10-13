@@ -27,6 +27,8 @@
             <p class="col-4">Link do scoringa: <a target="_blank" href="{{ $data['url'] }}">Scoring</a></p>
         </div>
 
+        @include('la/companies/notes' , ['pib' => $data['pib']])
+
     </div>
 
 @endsection

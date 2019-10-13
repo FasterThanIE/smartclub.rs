@@ -21,6 +21,10 @@ class CompaniesController extends Controller
         $sql = DB::connection()->getPdo();
         $query = $sql->prepare("
             SELECT * FROM companies 
+            WHERE pib NOT IN (
+              SELECT pib
+              FROM blocked_companies 
+            )
             LIMIT 100
         ");
 
@@ -170,6 +174,10 @@ class CompaniesController extends Controller
         $query = $sql->prepare("
             SELECT * FROM companies 
             WHERE ".implode(" AND ", $where)."
+            AND pib NOT IN (
+              SELECT pib
+              FROM blocked_companies 
+            )
         ");
         $query->execute($parameters);
         $data = $query->fetchAll();
@@ -220,5 +228,37 @@ class CompaniesController extends Controller
         $data = ['' => ''] + $query->fetchAll(\PDO::FETCH_COLUMN);
 
         return $data;
+    }
+
+    public function blockedCompany(Request $request , $id)
+    {
+        $sql = DB::connection()->getPdo();
+        $query = $sql->prepare("
+            INSERT INTO blocked_companies (pib, date_time) VALUES
+            (:pib, NOW())
+        ");
+
+        $query->bindParam(':pib', $id, \PDO::PARAM_INT);
+        $query->execute();
+    }
+
+    /**
+     * @param Request $request
+     * @param $note
+     */
+    public function addNewNote(Request $request)
+    {
+        $pib = $request->get('pib');
+        $note = $request->get('note');
+
+        $sql = DB::connection()->getPdo();
+        $query = $sql->prepare("
+            INSERT INTO company_notes (pib, note, date_time) VALUES
+            (:pib, :note, NOW())
+        ");
+
+        $query->bindParam(':pib' , $pib, \PDO::PARAM_INT);
+        $query->bindParam(':note', $note, \PDO::PARAM_STR);
+        $query->execute();
     }
 }

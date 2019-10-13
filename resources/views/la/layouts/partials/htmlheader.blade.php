@@ -28,5 +28,7 @@
     <![endif]-->
     
     @stack('styles')
-    
+    <script src="/javascript/jquery.min.js"></script>
+    <script src="/javascript/admin.js"></script>
+
 </head>

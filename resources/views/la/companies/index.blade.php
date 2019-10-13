@@ -19,6 +19,7 @@
             <th class="col">Neto D/G</th>
             <th class="col">Zaposleni</th>
             <th class="col">Scoring</th>
+            <th class="col">Ukloni kompaniju</th>
         </tr>
         @foreach($data as $info)
             <tr>
@@ -30,6 +31,9 @@
                 <td>{{ $info['neto'] }}</td>
                 <td>{{ $info['employees'] }}</td>
                 <td>{{ $info['score'] }}</td>
+                <td  data-company="{{ $info['pib'] }}">
+                    <button class="remove">Ukloni kompaniju</button>
+                </td>
             </tr>
         @endforeach
     </table>
