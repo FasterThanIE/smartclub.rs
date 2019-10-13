@@ -45,6 +45,9 @@ class InsertCompaniesCommand extends Command
 
         $pdo = DB::connection()->getPdo();
 
+
+        $count = 0;
+
         foreach($data as $info)
         {
           $stmt = $pdo->prepare("
@@ -52,28 +55,28 @@ class InsertCompaniesCommand extends Command
                 VALUES (:name, :url , :county, :full_name, :location, :address, :phone, :website, :mb, :pib, :active_funds, :income, :neto, :employees, :score )
           ");
 
-          $stmt->bindParam(':name', $info['name'], \PDO::PARAM_STR);
-          $stmt->bindParam(':url', $info['url'], \PDO::PARAM_STR);
-          $stmt->bindParam(':county', $info['county'], \PDO::PARAM_STR);
-          $stmt->bindParam(':full_name', $info['full_name'], \PDO::PARAM_STR);
-          $stmt->bindParam(':location', $info['location'], \PDO::PARAM_STR);
-          $stmt->bindParam(':address', $info['address'], \PDO::PARAM_STR);
-          $stmt->bindParam(':phone', $info['phone'], \PDO::PARAM_INT);
-          $stmt->bindParam(':website', $info['website'], \PDO::PARAM_STR);
-          $stmt->bindParam(':mb', $info['mb'], \PDO::PARAM_INT);
-          $stmt->bindParam(':pib', $info['pib'], \PDO::PARAM_INT);
-          $stmt->bindParam(':active_funds', $info['active_funds'], \PDO::PARAM_INT);
-          $stmt->bindParam(':income', $info['income'], \PDO::PARAM_INT);
-          $stmt->bindParam(':neto', $info['neto'], \PDO::PARAM_INT);
-          $stmt->bindParam(':employees', $info['employees'], \PDO::PARAM_INT);
+          $stmt->bindParam(':name', $info['ime'], \PDO::PARAM_STR);
+          $stmt->bindParam(':url', $info['detailed_informations'], \PDO::PARAM_STR);
+          $stmt->bindParam(':county', $info['Opstina'], \PDO::PARAM_STR);
+          $stmt->bindParam(':full_name', $info['Pun naziv'], \PDO::PARAM_STR);
+          $stmt->bindParam(':location', $info['Mesto'], \PDO::PARAM_STR);
+          $stmt->bindParam(':address', $info['Adresa'], \PDO::PARAM_STR);
+          $stmt->bindParam(':phone', $info['Telefon'], \PDO::PARAM_INT);
+          $stmt->bindParam(':website', $info['Web'], \PDO::PARAM_STR);
+          $stmt->bindParam(':mb', $info['MB'], \PDO::PARAM_INT);
+          $stmt->bindParam(':pib', $info['PIB'], \PDO::PARAM_INT);
+          $stmt->bindParam(':active_funds', str_replace([',','.'], ["",""], $info['Aktiva']), \PDO::PARAM_INT);
+          $stmt->bindParam(':income', str_replace([',','.'], ["",""], $info['income']), \PDO::PARAM_INT);
+          $stmt->bindParam(':neto', str_replace([',','.'], ["",""], $info['neto']), \PDO::PARAM_INT);
+          $stmt->bindParam(':employees', str_replace([',','.'], ["",""], $info['employees']), \PDO::PARAM_INT);
           $stmt->bindParam(':score', $info['score'], \PDO::PARAM_STR);
 
           $stmt->execute();
-          echo "dodata nova kompanija sa ".$info['pib']."\n";
-
-
+          echo "dodata nova kompanija sa ".$info['PIB']."\n";
+          $count++;
         }
 
+        echo "Total $count";
 
     }
 }

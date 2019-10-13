@@ -200,9 +200,9 @@ class CompaniesController extends Controller
     {
         $sql = DB::connection()->getPdo();
         $query = $sql->prepare("
-            SELECT county FROM companies
-            GROUP BY county
-            ORDER BY county ASC
+            SELECT location FROM companies
+            GROUP BY location
+            ORDER BY location ASC
         ");
         $query->execute();
 
