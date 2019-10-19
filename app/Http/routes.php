@@ -154,5 +154,7 @@ Route::any('/{any}', function($any) {
     return \App\Http\Controllers\ViewController::getViewFromPageName($any);
 });
 
+Route::get('/kompanije/{name}', 'MembersController@members');
+
 /* ================== Homepage + Admin Routes ================== */
 
