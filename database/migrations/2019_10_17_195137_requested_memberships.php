@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class PostaniteClan extends Migration
+class RequestedMemberships extends Migration
 {
     /**
      * Run the migrations.
@@ -25,6 +25,7 @@ class PostaniteClan extends Migration
             $table->string('contact_name', 50);
             $table->integer('job_code');
             $table->string('status', 10);
+            $table->string('package', 15);
             $table->dateTime('requested_on');
 
         });
