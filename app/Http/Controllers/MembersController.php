@@ -9,13 +9,13 @@ use Illuminate\Support\Facades\DB;
 
 class MembersController extends Controller
 {
-    public function members(Request $request, $name)
+    public function getMember(Request $request, $name)
     {
         die($name);
 
     }
 
-    public function newMember(Request $request)
+    public function addNewMember(Request $request)
     {
         $this->validate($request, [
             'company_name' => 'required',

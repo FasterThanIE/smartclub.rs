@@ -151,13 +151,13 @@ Route::get('/config-cache', function() {
 Route::post('/send_email',  'ContactController@mailToAdmin');
 
 
-Route::get('/kompanije/{name}', 'MembersController@members');
+Route::get('/kompanije/{name}', 'MembersController@getMember');
 
 Route::get('/postani-clan', function() {
     return view('pages/membership');
 });
 
-Route::post('/companies/addNewMember', 'MembersController@newMember');
+Route::post('/companies/addNewMember', 'MembersController@addNewMember');
 
 Route::any('/{any}', function($any) {
     return \App\Http\Controllers\ViewController::getViewFromPageName($any);
